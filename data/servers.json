@@ -1266,6 +1266,24 @@
     "official": true
   },
   {
+    "name": "TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo",
+    "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ecommerce-prices",
+    "description": "Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "TubeText",
+    "tags": [
+      "ecommerce",
+      "prices",
+      "amazon",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/amazon-product-search-scraper,tubetext/taobao-tmall-scraper,tubetext/aliexpress-search-scraper,tubetext/tiktok-shop-product-scraper,tubetext/idealo-price-scraper"
+    }
+  },
+  {
     "name": "Fincept MCP",
     "url": "https://github.com/Fincept-Corporation/fincept-mcp-docs",
     "description": "Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in.",
@@ -1651,6 +1669,24 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.muapi.ai/mcp"
+    }
+  },
+  {
+    "name": "TubeText YouTube Transcripts & Channel Analytics",
+    "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts",
+    "description": "YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "TubeText",
+    "tags": [
+      "transcripts",
+      "youtube",
+      "social-blade",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/youtube-transcript-fast,tubetext/youtube-channel-analytics,tubetext/socialblade-scraper"
     }
   },
   {
@@ -2384,6 +2420,24 @@
     }
   },
   {
+    "name": "TubeText TikTok Transcripts & Video Breakdown",
+    "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts",
+    "description": "TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "TubeText",
+    "tags": [
+      "transcripts",
+      "tiktok",
+      "video-analysis",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/tiktok-transcript,tubetext/video-breakdown-ai"
+    }
+  },
+  {
     "name": "Amplitude MCP Server",
     "url": "https://amplitude.com/docs/amplitude-ai/amplitude-mcp",
     "description": "Analyze product analytics events and user behavior in Amplitude.",
@@ -2694,6 +2748,24 @@
       "product"
     ],
     "official": true
+  },
+  {
+    "name": "TubeText Meta Ad Library & Video Ad Analyzer",
+    "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence",
+    "description": "Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "TubeText",
+    "tags": [
+      "ad-library",
+      "meta-ads",
+      "video-analysis",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.apify.com/?tools=fetch-actor-details,tubetext/meta-ad-library-videos,tubetext/video-ad-analyzer"
+    }
   },
   {
     "name": "LLM Pulse MCP Server",

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-294-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-298-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (14)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (32)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (23)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (25)
 - [Filesystems and Documents](#filesystems-and-documents) (12)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (18)
 - [Communication and Productivity](#communication-and-productivity) (32)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (38)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (27)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (28)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (17)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (51)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (52)
 - [Utilities and Examples](#utilities-and-examples) (15)
 
 <a id="official-and-reference"></a>
@@ -238,6 +238,10 @@ Browse the web, scrape content, search, and automate browser interactions.
   `puppeteer` `browser` `scraping`
 - **[Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp)** `Official` `Python` — AI-native search and content extraction for research agents.  
   `search` `research` `agents`
+- **[TubeText TikTok Transcripts & Video Breakdown](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts)** `Official` `Other` — TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result.  
+  `transcripts` `tiktok` `video-analysis` `remote`
+- **[TubeText YouTube Transcripts & Channel Analytics](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/youtube-transcripts)** `Official` `Other` — YouTube transcripts from videos, Shorts, playlists or channels, plus channel and Social Blade stats. Hosted on Apify (OAuth), pay per result.  
+  `transcripts` `youtube` `social-blade` `remote`
 - **[XActions](https://github.com/nirholas/xactions)** `JavaScript` — X/Twitter toolkit with an MCP server, CLI and browser scripts to scrape profiles, followers and tweets, monitor analytics and automate engagement without API fees.  
   `twitter` `scraping` `social-data` `automation`
 - **[Xquik MCP Server](https://github.com/Xquik-dev/x-twitter-scraper)** `TypeScript` — Search, monitor, and extract X/Twitter data from Xquik through MCP.  
@@ -531,6 +535,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `seo` `analytics` `ai-visibility` `remote`
 - **[StatOrigin](https://statorigin.org/docs/mcp)** `Official` `Other` — Read-only remote server for searching sourced industry statistics, each with its publisher, source document and source sentence.  
   `statistics` `open-data` `citations` `remote`
+- **[TubeText Meta Ad Library & Video Ad Analyzer](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ad-intelligence)** `Official` `Other` — Facebook/Instagram ads from Meta Ad Library plus AI teardowns of Meta and YouTube video ads. Hosted on Apify (OAuth), pay per result.  
+  `ad-library` `meta-ads` `video-analysis` `remote`
 
 <a id="legal-and-court-data"></a>
 
@@ -682,6 +688,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `stocks` `india` `market-data` `remote` `oauth`
 - **[TraderSpy](https://github.com/target1m/traderspy-mcp)** `Official` `Other` — Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools.  
   `crypto` `trading` `market-data` `oauth` `read-only`
+- **[TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ecommerce-prices)** `Official` `Other` — Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result.  
+  `ecommerce` `prices` `amazon` `remote`
 - **[TvojeLajky MCP](https://tvojelajky.cz/developers)** `Official` `TypeScript` — Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.  
   `commerce` `social-media` `oauth` `remote`
 - **[Universal Crypto MCP](https://github.com/nirholas/universal-crypto-mcp)** `TypeScript` — MCP server for agents to work across Ethereum, Arbitrum, Base, Polygon and BNB Chain: swaps, bridges, gas, staking, lending and x402 payments.  
